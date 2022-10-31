@@ -4,18 +4,17 @@ import { useNavigation } from "@react-navigation/native";
 
 import styles from './styles'
 
-import imgXcloud from '../../assets/xcloud-1.png';
-import imgFundo from '../../assets/logo.png';
-import imgConsole from '../../assets/xcloud-2.png';
-import imgJogo from '../../assets/jogo-1.png'
+import imgXcloud from '../../assets/ps pass.jpg';
+import imgFundo from '../../assets/logo.jpg';
+import imgJogo from '../../assets/spiderman.jpg'
 
 export default function TelaInicial() {
 const Navigation = useNavigation();
  return (
     <View style={ styles.container }>
     <Image source={ imgFundo } style={ styles.img } />
-    <Text style={ styles.titulo }>Xbox</Text>
-    <Text style={ styles.descricao }>Xbox é uma marca de consoles criada pela Microsoft. Toque nos cards para conhecer.</Text>
+    <Text style={ styles.titulo }>PlayStation</Text>
+    <Text style={ styles.descricao }>PlayStation é uma marca de consoles criada pela Sony. Toque nos cards para conhecer.</Text>
 
     <Pressable
       onPress={ () => { Navigation.navigate("Consoles") } }

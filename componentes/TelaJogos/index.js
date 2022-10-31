@@ -4,9 +4,9 @@ import { useNavigation } from "@react-navigation/native";
 
 import styles from './styles';
 
-import imgJogoForza from '../../assets/jogo-3.png';
-import imgJogoCyber from '../../assets/jogo-2.png';
-import imgJogoHalo from '../../assets/jogo-4.png';
+import imgJogoForza from '../../assets/spiderman.jpg';
+import imgJogoCyber from '../../assets/cod.jpg';
+import imgJogoHalo from '../../assets/tlu.jpg';
 
 
 export default function TelaJogos() {
@@ -19,26 +19,26 @@ const Navigation = useNavigation();
 
     <View style={ styles.boxJogo }>
       <ImageBackground source={ imgJogoForza } style={ styles.card }>
-        <Text style={ styles.cardTitulo }>Forza Horizon 5</Text>
+        <Text style={ styles.cardTitulo }>Marvel's Spider-Man: Miles Morales </Text>
       </ImageBackground>
 
-      <Text style={ styles.paragrafo }>Forza Horizon 5 é um jogo de corrida. É o quinto jogo da série Forza Horizon e o décimo segundo título principal da franquia Forza. O jogo se passa em uma representação ficcional do México. </Text>
+      <Text style={ styles.paragrafo }>Na mais nova aventura do universo de Marvel's Spider-Man, o adolescente Miles Morales está se adaptando a um novo lar enquanto segue os passos de seu mentor, Peter Parker, como novo Spider-Man. </Text>
     </View>
     
     <View style={ styles.boxJogo }>
       <ImageBackground source={ imgJogoCyber } style={ styles.card }>
-        <Text style={ styles.cardTitulo }>Cyberpunk 2077</Text>
+        <Text style={ styles.cardTitulo }>Call of Duty: Modern Warfare</Text>
       </ImageBackground>
 
-      <Text style={ styles.paragrafo }>Cyberpunk 2077 é um jogo eletrônico de RPG de ação desenvolvido e publicado pela CD Projekt.</Text>
+      <Text style={ styles.paragrafo }>O Call of Duty: Modern Warfare® II coloca os jogadores dentro de um conflito global sem precedentes que conta com o retorno dos Operadores icônicos da Força-Tarefa 141.</Text>
     </View>
     
     <View style={ styles.boxJogo }>
       <ImageBackground source={ imgJogoHalo } style={ styles.card }>
-        <Text style={ styles.cardTitulo }>Halo 5</Text>
+        <Text style={ styles.cardTitulo }>The Last of Us: part 1</Text>
       </ImageBackground>
 
-      <Text style={ styles.paragrafo }>Halo 5: Guardians é um jogo de tiro em primeira pessoa, parte da franquia Halo e sequência de Halo 4.</Text>
+      <Text style={ styles.paragrafo }>Conheça a história emocionante e os personagens inesquecíveis de The Last of Us, vencedor de mais de 200 prêmios de Jogo do Ano.</Text>
     </View>
   </View>
 </ScrollView>
