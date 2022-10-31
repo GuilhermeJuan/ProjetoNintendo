@@ -1,6 +1,4 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
-
 import TelaConsole from '../TelaConsole';
 import TelaInicial from '../TelaInicial';
 import TelaJogos from '../TelaJogos';

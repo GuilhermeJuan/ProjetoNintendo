@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/native";
 
 import styles from './styles'
 
-import imgXcloud from '../../assets/ps pass.jpg';
+import imgPass from '../../assets/ps pass.jpg';
 import imgFundo from '../../assets/logo.jpg';
 import imgJogo from '../../assets/spiderman.jpg'
 
@@ -20,7 +20,7 @@ const Navigation = useNavigation();
       onPress={ () => { Navigation.navigate("Consoles") } }
       style={styles.card}
     >
-      <Image source={ imgConsole } style={ styles.cardImg } />
+      <Image source={ imgPass } style={ styles.cardImg } />
       <Text style={ styles.cardTexto }>Conheça os consoles</Text>
     </Pressable>
 
@@ -36,8 +36,8 @@ const Navigation = useNavigation();
       onPress={ () => { Navigation.navigate("Nuvem") } }
       style={styles.card}
     >
-      <Image source={ imgXcloud } style={ styles.cardImg } />
-      <Text style={ styles.cardTexto }>Conheça o xCloud</Text>
+      <Image source={ imgPass } style={ styles.cardImg } />
+      <Text style={ styles.cardTexto }>Conheça o PlayStation Plus Pass </Text>
     </Pressable>
   </View>
 )

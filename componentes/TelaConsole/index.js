@@ -14,9 +14,7 @@ const Navigation = useNavigation();
   <View style={ styles.box }>
     <Image source={ imgConsole1 } style={ styles.img } />
     <Text style={ styles.titulo }>PLAYSTATION 4</Text>
-    <Text style={ styles.subtitulo }>Desempenho de última geração no menor Xbox de todos os tempos.</Text>
-    <Text style={ styles.paragrafo }>O Series S é pra quem busca jogos de nova geração gastando pouco. é o console mais barato da nova geração. Ele é o equilibrio entre gráfico e performance</Text>
-  </View>
+   </View>
   
   <View style={ styles.box }>
   <Image source={ imgConsole2 } style={ styles.img } />

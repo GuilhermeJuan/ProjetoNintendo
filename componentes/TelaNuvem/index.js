@@ -16,7 +16,7 @@ const Navigation = useNavigation();
   <Text style={ styles.paragrafo }>Mais novo lançamento da Sony para salvar seus jogos.</Text>
   <Text style={ styles.paragrafo }>Desktop, Notebook, console ou até mesmo celular pode se tornar um PlayStation.</Text>
   <Text style={ styles.paragrafo }>Através de uma assinatura você terá um PlayStation virtual sempre que precisar.</Text>
-  <Image source={ img1 } style={ styles.img } />
+  <Image source={ imgFundo } style={ styles.img } />
 </ImageBackground>
   );
 }

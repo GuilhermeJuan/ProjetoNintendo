@@ -4,9 +4,9 @@ import { useNavigation } from "@react-navigation/native";
 
 import styles from './styles';
 
-import imgJogoForza from '../../assets/spiderman.jpg';
-import imgJogoCyber from '../../assets/cod.jpg';
-import imgJogoHalo from '../../assets/tlu.jpg';
+import imgJogoCOD from '../../assets/spiderman.jpg';
+import imgJogoSpiderMan from '../../assets/cod.jpg';
+import imgJogoTheLastOfUs from '../../assets/tlu.jpg';
 
 
 export default function TelaJogos() {
@@ -18,7 +18,7 @@ const Navigation = useNavigation();
     <Text style={ styles.descricao }>Os principais jogos estão aqui. Veja abaixo três exemplos de grande sucesso.</Text>
 
     <View style={ styles.boxJogo }>
-      <ImageBackground source={ imgJogoForza } style={ styles.card }>
+      <ImageBackground source={ imgJogoSpiderMan } style={ styles.card }>
         <Text style={ styles.cardTitulo }>Marvel's Spider-Man: Miles Morales </Text>
       </ImageBackground>
 
@@ -26,7 +26,7 @@ const Navigation = useNavigation();
     </View>
     
     <View style={ styles.boxJogo }>
-      <ImageBackground source={ imgJogoCyber } style={ styles.card }>
+      <ImageBackground source={ imgJogoCOD } style={ styles.card }>
         <Text style={ styles.cardTitulo }>Call of Duty: Modern Warfare</Text>
       </ImageBackground>
 
@@ -34,7 +34,7 @@ const Navigation = useNavigation();
     </View>
     
     <View style={ styles.boxJogo }>
-      <ImageBackground source={ imgJogoHalo } style={ styles.card }>
+      <ImageBackground source={ imgJogoTheLastOfUs } style={ styles.card }>
         <Text style={ styles.cardTitulo }>The Last of Us: part 1</Text>
       </ImageBackground>
 
