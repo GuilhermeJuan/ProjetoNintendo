@@ -12,7 +12,7 @@ export default function Rotas() {
     return(
         <Stack.Navigator>
             <Stack.Screen
-            name="Início"
+            name="Inicio"
             component={TelaInicial}
             />
 

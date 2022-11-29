@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   titulo: {
     fontSize:26,
     fontWeight: "bold",
-    color: '#107c0f',
+    color: '#fe0016',
     marginBottom: 5,
   },
   descricao: {
@@ -30,7 +30,7 @@ const styles = StyleSheet.create({
   card: {
     width: 250,
     alignItems: "center",
-    backgroundColor: '#107c0f',
+    backgroundColor: '#fe0016',
     flexDirection: "row",
     borderRadius: 10,
     paddingVertical: 10,

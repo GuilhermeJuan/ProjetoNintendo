@@ -4,9 +4,9 @@ import { useNavigation } from "@react-navigation/native";
 
 import styles from './styles';
 
-import imgJogoCOD from '../../assets/spiderman.jpg';
-import imgJogoSpiderMan from '../../assets/cod.jpg';
-import imgJogoTheLastOfUs from '../../assets/tlu.jpg';
+import imgJogoPK from '../../assets/ninSuperMarioWorld.PNG';
+import imgJogoSMW from '../../assets/ninPokemon.png';
+import imgJogoTheLegendofZelda from '../../assets/ninZeldas.jpg';
 
 
 export default function TelaJogos() {
@@ -14,31 +14,31 @@ const Navigation = useNavigation();
  return (
   <ScrollView>
   <View style={ styles.container }>
-    <Text style={ styles.titulo }>Jogos em 4k</Text>
+    <Text style={ styles.titulo }>Tantos jogos disponíveis</Text>
     <Text style={ styles.descricao }>Os principais jogos estão aqui. Veja abaixo três exemplos de grande sucesso.</Text>
 
     <View style={ styles.boxJogo }>
-      <ImageBackground source={ imgJogoSpiderMan } style={ styles.card }>
-        <Text style={ styles.cardTitulo }>Marvel's Spider-Man: Miles Morales </Text>
+      <ImageBackground source={ imgJogoSMW} style={ styles.card }>
+        <Text style={ styles.cardTitulo }>Pokémon Scarlet e Violet </Text>
       </ImageBackground>
 
-      <Text style={ styles.paragrafo }>Na mais nova aventura do universo de Marvel's Spider-Man, o adolescente Miles Morales está se adaptando a um novo lar enquanto segue os passos de seu mentor, Peter Parker, como novo Spider-Man. </Text>
+      <Text style={ styles.paragrafo }>Pokémon Scarlet e Pokémon Violet são dois jogos eletrônicos de RPG desenvolvidos pela Game Freak e publicados pela Nintendo e The Pokémon Company. Pokémon Scarlet & Violet é uma mistura de heranças de Legends: Arceus e Sword & Shield, sendo a primeira dupla da série principal a apresentar um mapa em mundo aberto – ou seja, sem cidades interligadas ou necessidade de HMs e itens específicos para avançar.  </Text>
     </View>
     
     <View style={ styles.boxJogo }>
-      <ImageBackground source={ imgJogoCOD } style={ styles.card }>
-        <Text style={ styles.cardTitulo }>Call of Duty: Modern Warfare</Text>
+      <ImageBackground source={ imgJogoPK } style={ styles.card }>
+        <Text style={ styles.cardTitulo }>Super Mario™ 3D World</Text>
       </ImageBackground>
 
-      <Text style={ styles.paragrafo }>O Call of Duty: Modern Warfare® II coloca os jogadores dentro de um conflito global sem precedentes que conta com o retorno dos Operadores icônicos da Força-Tarefa 141.</Text>
+      <Text style={ styles.paragrafo }>Salte e escale por dezenas de fases coloridas! Multiplique a diversão juntando-se ou competindo contra amigos localmente* ou online** para alcançar o objetivo de cada fase. Trabalhem juntos para explorar e descobrir itens colecionáveis ou competir pela coroa ganhando a maior pontuação, criando um frenesi amistoso! Mario (e seus amigos) podem usar uma variedade de itens power-up como o Super Bell, que concede habilidades de gato, como escalar e arranhar. Aproveite as vantagens extras para completar as fases e conquistar a coroa!</Text>
     </View>
     
     <View style={ styles.boxJogo }>
-      <ImageBackground source={ imgJogoTheLastOfUs } style={ styles.card }>
-        <Text style={ styles.cardTitulo }>The Last of Us: part 1</Text>
+      <ImageBackground source={ imgJogoTheLegendofZelda } style={ styles.card }>
+        <Text style={ styles.cardTitulo }>The Legend of Zelda™: Breath of the Wild</Text>
       </ImageBackground>
 
-      <Text style={ styles.paragrafo }>Conheça a história emocionante e os personagens inesquecíveis de The Last of Us, vencedor de mais de 200 prêmios de Jogo do Ano.</Text>
+      <Text style={ styles.paragrafo }>Esqueça tudo que você sabe sobre os jogos da série The Legend of Zelda. Entre em um mundo de descobertas, exploração e aventura em The Legend of Zelda: Breath of the Wild, o novo jogo da famosa série que veio para romper barreiras. Viaje pelos vastos campos, florestas e montanhas enquanto descobre o que aconteceu com o reino de Hyrule nesta deslumbrante aventura a céu aberto. E agora no Nintendo Switch, a sua jornada tem mais liberdade do que nunca. Leve o seu console para qualquer lugar e viva aventuras na pele de Link da maneira que quiser.</Text>
     </View>
   </View>
 </ScrollView>

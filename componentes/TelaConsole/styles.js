@@ -17,8 +17,8 @@ const styles = StyleSheet.create({
     height: 200,
   },
   titulo: {
-    fontSize: 34,
-    color: '#107c10',
+    fontSize: 30,
+    color: '#fe0016',
     fontWeight: "bold",
     marginBottom: 5,
   },
